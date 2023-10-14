@@ -1,0 +1,120 @@
+nav{
+    height: 76px;
+    width: 100%;  
+      position: fixed;
+      z-index: 1;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 30px;
+    align-items: center;
+    background-color: #212529;
+    color: white;
+
+}
+.start{
+    font-size: 30px;
+}
+.navtext{
+    color: aliceblue;
+}
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 30px; 
+}
+.blocks{
+
+    margin: 20px;
+    color: aliceblue;
+    
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+li:hover{
+    cursor: pointer;
+    color:  #1abc9c;
+}
+.first-container{ 
+    height: 75vh;
+    background-color: #1abc9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    padding-top: 50px;
+}
+.image {
+
+    width: 200px;
+    height: 200px;  
+}
+.startbootstrap{
+    font-size: 60px;
+    color: aliceblue;
+    padding-top: 20px;
+}
+.gwi{
+    font-size: 18px;
+    color: aliceblue;
+    padding-top: 20px;
+}
+.portfolio-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #2c3e50;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.card-container{
+    width: 1320px;
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.card{
+    width: 400px;
+    height: 288px;
+    border-radius: 20px;
+    position: relative;
+}
+.card img{
+    width: 400px;
+    height: 288px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.hover{
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    width: 400px;
+    height: 288px;
+    border-radius: 20px;
+    font-size: 70px;
+    background-color:#1abc9c ;
+    transition: 0.5s;
+}
+.hover:hover{
+    opacity: 0.9;
+}
+.third-container{ 
+height: 50vh;
+border: 1px red solid;
+}
+
+
+
+
